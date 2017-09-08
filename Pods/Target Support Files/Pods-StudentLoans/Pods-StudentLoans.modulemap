@@ -1,0 +1,6 @@
+framework module Pods_StudentLoans {
+  umbrella header "Pods-StudentLoans-umbrella.h"
+
+  export *
+  module * { export * }
+}

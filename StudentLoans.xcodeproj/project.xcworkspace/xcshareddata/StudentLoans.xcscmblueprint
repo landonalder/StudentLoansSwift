@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8413799DE380A4E38D2E78CFA141BE84D1A421D9" : 9223372036854775807,
+    "F5B4EC300E7199406BA2B2AA6070092FA65DDD89" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EDCB2814-6C9A-4A80-BD97-8A46148F677D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8413799DE380A4E38D2E78CFA141BE84D1A421D9" : "StudentLoans\/Foundation\/",
+    "F5B4EC300E7199406BA2B2AA6070092FA65DDD89" : "StudentLoans\/PromiseKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "StudentLoans",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "StudentLoans.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PromiseKit\/Foundation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8413799DE380A4E38D2E78CFA141BE84D1A421D9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mxcl\/PromiseKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F5B4EC300E7199406BA2B2AA6070092FA65DDD89"
+    }
+  ]
+}

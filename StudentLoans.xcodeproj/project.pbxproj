@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42DF795EEA46DB73637D13CD /* Pods_StudentLoans.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1DD7695991DBADCA306CAC /* Pods_StudentLoans.framework */; };
 		447621421F5E1B8A002058C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447621411F5E1B8A002058C9 /* AppDelegate.swift */; };
 		447621441F5E1B8A002058C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447621431F5E1B8A002058C9 /* ViewController.swift */; };
 		447621471F5E1B8A002058C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447621451F5E1B8A002058C9 /* Main.storyboard */; };
-		447621491F5E1B8A002058C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447621481F5E1B8A002058C9 /* Assets.xcassets */; };
 		4476214C1F5E1B8A002058C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4476214A1F5E1B8A002058C9 /* LaunchScreen.storyboard */; };
+		4476216E1F5E50F9002058C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4476216D1F5E50F9002058C9 /* Images.xcassets */; };
+		447621701F5E51BC002058C9 /* debt1600.png in Resources */ = {isa = PBXBuildFile; fileRef = 4476216F1F5E51BC002058C9 /* debt1600.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +21,13 @@
 		447621411F5E1B8A002058C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		447621431F5E1B8A002058C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		447621461F5E1B8A002058C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		447621481F5E1B8A002058C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4476214B1F5E1B8A002058C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4476214D1F5E1B8A002058C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4476216D1F5E50F9002058C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4476216F1F5E51BC002058C9 /* debt1600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = debt1600.png; sourceTree = "<group>"; };
+		ABBD67AC1A157D7339C5D614 /* Pods-StudentLoans.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudentLoans.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudentLoans/Pods-StudentLoans.debug.xcconfig"; sourceTree = "<group>"; };
+		B16B01FD1BF8397FAF2ECF6C /* Pods-StudentLoans.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudentLoans.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudentLoans/Pods-StudentLoans.release.xcconfig"; sourceTree = "<group>"; };
+		CA1DD7695991DBADCA306CAC /* Pods_StudentLoans.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudentLoans.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42DF795EEA46DB73637D13CD /* Pods_StudentLoans.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				447621401F5E1B8A002058C9 /* StudentLoans */,
 				4476213F1F5E1B8A002058C9 /* Products */,
+				447621531F5E2C73002058C9 /* Frameworks */,
+				67CCFA89D85EF560E644BABE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +66,29 @@
 				447621411F5E1B8A002058C9 /* AppDelegate.swift */,
 				447621431F5E1B8A002058C9 /* ViewController.swift */,
 				447621451F5E1B8A002058C9 /* Main.storyboard */,
-				447621481F5E1B8A002058C9 /* Assets.xcassets */,
+				4476216D1F5E50F9002058C9 /* Images.xcassets */,
 				4476214A1F5E1B8A002058C9 /* LaunchScreen.storyboard */,
+				4476216F1F5E51BC002058C9 /* debt1600.png */,
 				4476214D1F5E1B8A002058C9 /* Info.plist */,
 			);
 			path = StudentLoans;
+			sourceTree = "<group>";
+		};
+		447621531F5E2C73002058C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA1DD7695991DBADCA306CAC /* Pods_StudentLoans.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67CCFA89D85EF560E644BABE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABBD67AC1A157D7339C5D614 /* Pods-StudentLoans.debug.xcconfig */,
+				B16B01FD1BF8397FAF2ECF6C /* Pods-StudentLoans.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 447621501F5E1B8A002058C9 /* Build configuration list for PBXNativeTarget "StudentLoans" */;
 			buildPhases = (
+				35DB2E48ADC52B41E6A59A5A /* [CP] Check Pods Manifest.lock */,
 				4476213A1F5E1B8A002058C9 /* Sources */,
 				4476213B1F5E1B8A002058C9 /* Frameworks */,
 				4476213C1F5E1B8A002058C9 /* Resources */,
+				F45DFB39E30C22AE0722367C /* [CP] Embed Pods Frameworks */,
+				F2939808C62348EC889B667F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +126,7 @@
 				TargetAttributes = {
 					4476213D1F5E1B8A002058C9 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 8UKDX8M7L3;
+						DevelopmentTeam = MN489GLUZK;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,12 +155,67 @@
 			buildActionMask = 2147483647;
 			files = (
 				4476214C1F5E1B8A002058C9 /* LaunchScreen.storyboard in Resources */,
-				447621491F5E1B8A002058C9 /* Assets.xcassets in Resources */,
+				447621701F5E51BC002058C9 /* debt1600.png in Resources */,
+				4476216E1F5E50F9002058C9 /* Images.xcassets in Resources */,
 				447621471F5E1B8A002058C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35DB2E48ADC52B41E6A59A5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudentLoans-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2939808C62348EC889B667F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudentLoans/Pods-StudentLoans-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F45DFB39E30C22AE0722367C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StudentLoans/Pods-StudentLoans-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudentLoans/Pods-StudentLoans-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4476213A1F5E1B8A002058C9 /* Sources */ = {
@@ -259,9 +344,14 @@
 		};
 		447621511F5E1B8A002058C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABBD67AC1A157D7339C5D614 /* Pods-StudentLoans.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8UKDX8M7L3;
+				DEVELOPMENT_TEAM = MN489GLUZK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Foundation/build/Debug",
+				);
 				INFOPLIST_FILE = StudentLoans/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Landon.StudentLoans;
@@ -272,9 +362,14 @@
 		};
 		447621521F5E1B8A002058C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B16B01FD1BF8397FAF2ECF6C /* Pods-StudentLoans.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8UKDX8M7L3;
+				DEVELOPMENT_TEAM = MN489GLUZK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Foundation/build/Debug",
+				);
 				INFOPLIST_FILE = StudentLoans/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Landon.StudentLoans;
@@ -302,6 +397,7 @@
 				447621521F5E1B8A002058C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
