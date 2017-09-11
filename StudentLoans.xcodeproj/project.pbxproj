@@ -15,7 +15,37 @@
 		4476214C1F5E1B8A002058C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4476214A1F5E1B8A002058C9 /* LaunchScreen.storyboard */; };
 		4476216E1F5E50F9002058C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4476216D1F5E50F9002058C9 /* Images.xcassets */; };
 		447621701F5E51BC002058C9 /* debt1600.png in Resources */ = {isa = PBXBuildFile; fileRef = 4476216F1F5E51BC002058C9 /* debt1600.png */; };
+		447AC2B91F66411100F3A824 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447AC29D1F663F8100F3A824 /* NotificationCenter.framework */; };
+		447AC2BC1F66411100F3A824 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447AC2BB1F66411100F3A824 /* TodayViewController.swift */; };
+		447AC2BF1F66411100F3A824 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447AC2BD1F66411100F3A824 /* MainInterface.storyboard */; };
+		447AC2C31F66411100F3A824 /* StudentLoansToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 447AC2B81F66411100F3A824 /* StudentLoansToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		44F7F0BA1F66425F008B5329 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442FB8E21F63539300BE4546 /* Api.swift */; };
+		C77623681B5300E08A3D4E32 /* Pods_StudentLoansToday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3CA47F72E6245F7ED4AB60 /* Pods_StudentLoansToday.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		447AC2C11F66411100F3A824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 447621361F5E1B8A002058C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 447AC2B71F66411100F3A824;
+			remoteInfo = StudentLoansToday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		447AC2AC1F663F8100F3A824 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				447AC2C31F66411100F3A824 /* StudentLoansToday.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		442FB8E21F63539300BE4546 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
@@ -27,9 +57,19 @@
 		4476214D1F5E1B8A002058C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4476216D1F5E50F9002058C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4476216F1F5E51BC002058C9 /* debt1600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = debt1600.png; sourceTree = "<group>"; };
+		447AC29D1F663F8100F3A824 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		447AC2AE1F66401800F3A824 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/StudentLoans-eexzcqdxlfqiihcdeoltfwifsjmh/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework"; sourceTree = "<group>"; };
+		447AC2B01F66401E00F3A824 /* Pods_StudentLoans.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_StudentLoans.framework; path = "../../../Library/Developer/Xcode/DerivedData/StudentLoans-eexzcqdxlfqiihcdeoltfwifsjmh/Build/Products/Debug-iphonesimulator/Pods_StudentLoans.framework"; sourceTree = "<group>"; };
+		447AC2B81F66411100F3A824 /* StudentLoansToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StudentLoansToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		447AC2BB1F66411100F3A824 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		447AC2BE1F66411100F3A824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		447AC2C01F66411100F3A824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8E2FFB358964AD40B80F8A5 /* Pods-StudentLoansToday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudentLoansToday.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudentLoansToday/Pods-StudentLoansToday.release.xcconfig"; sourceTree = "<group>"; };
 		ABBD67AC1A157D7339C5D614 /* Pods-StudentLoans.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudentLoans.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudentLoans/Pods-StudentLoans.debug.xcconfig"; sourceTree = "<group>"; };
 		B16B01FD1BF8397FAF2ECF6C /* Pods-StudentLoans.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudentLoans.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudentLoans/Pods-StudentLoans.release.xcconfig"; sourceTree = "<group>"; };
+		C0E84C941F9893E116DABB44 /* Pods-StudentLoansToday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudentLoansToday.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudentLoansToday/Pods-StudentLoansToday.debug.xcconfig"; sourceTree = "<group>"; };
 		CA1DD7695991DBADCA306CAC /* Pods_StudentLoans.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudentLoans.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3CA47F72E6245F7ED4AB60 /* Pods_StudentLoansToday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudentLoansToday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +81,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		447AC2B51F66411100F3A824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447AC2B91F66411100F3A824 /* NotificationCenter.framework in Frameworks */,
+				C77623681B5300E08A3D4E32 /* Pods_StudentLoansToday.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -48,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				447621401F5E1B8A002058C9 /* StudentLoans */,
+				447AC2BA1F66411100F3A824 /* StudentLoansToday */,
 				4476213F1F5E1B8A002058C9 /* Products */,
 				447621531F5E2C73002058C9 /* Frameworks */,
 				67CCFA89D85EF560E644BABE /* Pods */,
@@ -58,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				4476213E1F5E1B8A002058C9 /* StudentLoans.app */,
+				447AC2B81F66411100F3A824 /* StudentLoansToday.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,9 +131,23 @@
 		447621531F5E2C73002058C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				447AC2B01F66401E00F3A824 /* Pods_StudentLoans.framework */,
+				447AC2AE1F66401800F3A824 /* PromiseKit.framework */,
 				CA1DD7695991DBADCA306CAC /* Pods_StudentLoans.framework */,
+				447AC29D1F663F8100F3A824 /* NotificationCenter.framework */,
+				FC3CA47F72E6245F7ED4AB60 /* Pods_StudentLoansToday.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		447AC2BA1F66411100F3A824 /* StudentLoansToday */ = {
+			isa = PBXGroup;
+			children = (
+				447AC2BB1F66411100F3A824 /* TodayViewController.swift */,
+				447AC2BD1F66411100F3A824 /* MainInterface.storyboard */,
+				447AC2C01F66411100F3A824 /* Info.plist */,
+			);
+			path = StudentLoansToday;
 			sourceTree = "<group>";
 		};
 		67CCFA89D85EF560E644BABE /* Pods */ = {
@@ -90,6 +155,8 @@
 			children = (
 				ABBD67AC1A157D7339C5D614 /* Pods-StudentLoans.debug.xcconfig */,
 				B16B01FD1BF8397FAF2ECF6C /* Pods-StudentLoans.release.xcconfig */,
+				C0E84C941F9893E116DABB44 /* Pods-StudentLoansToday.debug.xcconfig */,
+				A8E2FFB358964AD40B80F8A5 /* Pods-StudentLoansToday.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -107,15 +174,36 @@
 				4476213C1F5E1B8A002058C9 /* Resources */,
 				F45DFB39E30C22AE0722367C /* [CP] Embed Pods Frameworks */,
 				F2939808C62348EC889B667F /* [CP] Copy Pods Resources */,
+				447AC2AC1F663F8100F3A824 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				447AC2C21F66411100F3A824 /* PBXTargetDependency */,
 			);
 			name = StudentLoans;
 			productName = StudentLoans;
 			productReference = 4476213E1F5E1B8A002058C9 /* StudentLoans.app */;
 			productType = "com.apple.product-type.application";
+		};
+		447AC2B71F66411100F3A824 /* StudentLoansToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447AC2C41F66411100F3A824 /* Build configuration list for PBXNativeTarget "StudentLoansToday" */;
+			buildPhases = (
+				CF9F3664D6DEE6E61DB6056D /* [CP] Check Pods Manifest.lock */,
+				447AC2B41F66411100F3A824 /* Sources */,
+				447AC2B51F66411100F3A824 /* Frameworks */,
+				447AC2B61F66411100F3A824 /* Resources */,
+				02F877D8BC3DA6F734843BE8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudentLoansToday;
+			productName = StudentLoansToday;
+			productReference = 447AC2B81F66411100F3A824 /* StudentLoansToday.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -129,7 +217,12 @@
 				TargetAttributes = {
 					4476213D1F5E1B8A002058C9 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = MN489GLUZK;
+						DevelopmentTeam = 8UKDX8M7L3;
+						ProvisioningStyle = Automatic;
+					};
+					447AC2B71F66411100F3A824 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8UKDX8M7L3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -148,6 +241,7 @@
 			projectRoot = "";
 			targets = (
 				4476213D1F5E1B8A002058C9 /* StudentLoans */,
+				447AC2B71F66411100F3A824 /* StudentLoansToday */,
 			);
 		};
 /* End PBXProject section */
@@ -164,9 +258,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		447AC2B61F66411100F3A824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447AC2BF1F66411100F3A824 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		02F877D8BC3DA6F734843BE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudentLoansToday/Pods-StudentLoansToday-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		35DB2E48ADC52B41E6A59A5A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -179,6 +296,24 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-StudentLoans-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF9F3664D6DEE6E61DB6056D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudentLoansToday-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -231,7 +366,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		447AC2B41F66411100F3A824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F7F0BA1F66425F008B5329 /* Api.swift in Sources */,
+				447AC2BC1F66411100F3A824 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		447AC2C21F66411100F3A824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 447AC2B71F66411100F3A824 /* StudentLoansToday */;
+			targetProxy = 447AC2C11F66411100F3A824 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		447621451F5E1B8A002058C9 /* Main.storyboard */ = {
@@ -248,6 +400,14 @@
 				4476214B1F5E1B8A002058C9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		447AC2BD1F66411100F3A824 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				447AC2BE1F66411100F3A824 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -350,8 +510,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ABBD67AC1A157D7339C5D614 /* Pods-StudentLoans.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MN489GLUZK;
+				DEVELOPMENT_TEAM = 8UKDX8M7L3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Foundation/build/Debug",
@@ -368,8 +529,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B16B01FD1BF8397FAF2ECF6C /* Pods-StudentLoans.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MN489GLUZK;
+				DEVELOPMENT_TEAM = 8UKDX8M7L3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Foundation/build/Debug",
@@ -378,6 +540,36 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Landon.StudentLoans;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		447AC2C51F66411100F3A824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0E84C941F9893E116DABB44 /* Pods-StudentLoansToday.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				DEVELOPMENT_TEAM = 8UKDX8M7L3;
+				INFOPLIST_FILE = StudentLoansToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Landon.StudentLoans.StudentLoansToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		447AC2C61F66411100F3A824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8E2FFB358964AD40B80F8A5 /* Pods-StudentLoansToday.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				DEVELOPMENT_TEAM = 8UKDX8M7L3;
+				INFOPLIST_FILE = StudentLoansToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Landon.StudentLoans.StudentLoansToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -399,6 +591,15 @@
 			buildConfigurations = (
 				447621511F5E1B8A002058C9 /* Debug */,
 				447621521F5E1B8A002058C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		447AC2C41F66411100F3A824 /* Build configuration list for PBXNativeTarget "StudentLoansToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447AC2C51F66411100F3A824 /* Debug */,
+				447AC2C61F66411100F3A824 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -13,10 +13,11 @@
 		1AEBBF1B5BBD003EBD0BC3D86C452ACB /* NSTask+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = A781E6C7BA06DD8A0A80B0494DA26A4E /* NSTask+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B3B86C241A57C93F257380E6B92C300 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B97DBEF2B7618554E6D9AB143DFAA /* Promise.swift */; };
 		1B7B1BB2A27D24AD336D72AA2B6B2A6E /* NSNotificationCenter+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 638FC877C26AE2698B03F57C63A5C636 /* NSNotificationCenter+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25D49A3E1B2CE3123CF57E8F455F18C8 /* Pods-StudentLoans-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C12735FFDA6FAB82EDD2323F6A2A933E /* Pods-StudentLoans-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25D49A3E1B2CE3123CF57E8F455F18C8 /* Pods-StudentLoans-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17764B72EF8B6559D18008A3715F1B1D /* Pods-StudentLoans-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2610CFA96CEB2F8A5D71244F9650EB77 /* AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD987AB706C5E3C09C4B93C7F9F25E23 /* AnyPromise.swift */; };
 		27A8927DAB53783BA10A4B3A57D3ECC7 /* PromiseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD911A7C16FAA09302EE0DF2F0B0DA9 /* PromiseKit-dummy.m */; };
 		2D61ED3BAD1D4C2FD1CD3FF57D5DAE96 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212FBE5112A86EA090A636CE6EA59B6 /* Error.swift */; };
+		34B4544B978695D227B6F4EF9AB7B69C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
 		36D5794CDCBF8DC0EE5CD30B3E038B34 /* NSURLSession+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B468F428AC55896FEC0D8C3A1181AC /* NSURLSession+AnyPromise.m */; };
 		433772B4FC757944B7C1987FE73DCAFA /* afterlife.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF52D452D72EF81C1A4A1B4DBDFC452A /* afterlife.swift */; };
 		44BEC7785C304ECB0B84C26D69F8306C /* PMKFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D009A35EE64D77102391EC364147766 /* PMKFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,7 @@
 		48A923C6E6A34323FADF4ECD67E32136 /* NSNotificationCenter+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5F4A276E2678B6049F2F139147EC12 /* NSNotificationCenter+AnyPromise.m */; };
 		4931C983D0933F705B6F40622760C7FA /* after.m in Sources */ = {isa = PBXBuildFile; fileRef = C54315DA3A1A39E54691EB5C6921A90C /* after.m */; };
 		4E572C79440FF2DD38E07EF5BB27CCA3 /* UIViewController+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE3B541056E3495362EF0C5DDB405B /* UIViewController+Promise.swift */; };
+		5057AE97BFCEA95993CDCF70CEF0C910 /* Pods-StudentLoansToday-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6F8F743016A3A50454FAD22D76CE439 /* Pods-StudentLoansToday-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58E19412FC0C5B22D3AAB6E4F256BC17 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */; };
 		5BCC2A07945BF3BF89ECA46CD60A97FE /* NSNotificationCenter+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294026AB8B28C610FC57DF2A26EB7FC9 /* NSNotificationCenter+Promise.swift */; };
 		618AD10F1938851B454B983BEA2C2FDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
@@ -35,7 +37,7 @@
 		7045716D137839E52C3856C08A30CF2A /* DispatchQueue+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F845E54F1F99FA83765AE21DEBBED993 /* DispatchQueue+Promise.swift */; };
 		77FF3927825CD2B4AF84A364BDBB45D7 /* PMKAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA858C2DB288BB308A48DC5193E6F1 /* PMKAlertController.swift */; };
 		7B591CDB9A88022D7553A6A3A842A39D /* UIView+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 765DEE6E8D8C524E9695A1C7726AB582 /* UIView+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F1C88E44FB80494F44BFAC7AC065960 /* Pods-StudentLoans-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E34512887E7F6F46550697CBEB3A03C /* Pods-StudentLoans-dummy.m */; };
+		7F1C88E44FB80494F44BFAC7AC065960 /* Pods-StudentLoans-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 472C722EA5B261028C1573BE99CC9332 /* Pods-StudentLoans-dummy.m */; };
 		840B89CC300420BC13F2A5D54FA7C26F /* Promise+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6179271256B847F0ECC0222967A3CAA1 /* Promise+Properties.swift */; };
 		8CE0BCDF19C755463395BD8053BE5FE3 /* hang.m in Sources */ = {isa = PBXBuildFile; fileRef = 647132F3F2E8752B2E96A1DC7747B992 /* hang.m */; };
 		8FB7BE1B3840258F8C9E0364AADDB44C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
@@ -60,11 +62,19 @@
 		E95FAC1401F24A84859BAA03B904535B /* URLDataPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8C2DDC09A2F5FF7FC82E8881A3996B /* URLDataPromise.swift */; };
 		EC1895FFD97F7975CE44A002080315DF /* join.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A5586A6499C102D0BCC9DC96EF7F49 /* join.swift */; };
 		FB7BC3772454672A713B26E578F3916C /* NSObject+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8EEC210981A388DDF8ECCEF8433904 /* NSObject+Promise.swift */; };
+		FC13DBE98C90A5F26B3D5A4ED5A6B6F0 /* Pods-StudentLoansToday-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A632BF616368B1CACD73130EBC37574 /* Pods-StudentLoansToday-dummy.m */; };
 		FDC26EC6FBA21070FAE7AF17426D3F51 /* PMKUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 95632F4C8D15D6CF8EE867952FA69262 /* PMKUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FED840C4EA088A5B982D870A1C2E9D01 /* PMKQuartzCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E1D36DCB7BF8A7DEB230733B158119 /* PMKQuartzCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		191764FF7B1BBE9796B648E21073E721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5ADC79467416ED46D7A1EFF414222E9;
+			remoteInfo = PromiseKit;
+		};
 		8635D84F507B8F2692BE9BCC669A5825 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -75,57 +85,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		008846D95D6E3932A85E6EA07267B0E7 /* Pods-StudentLoans.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StudentLoans.release.xcconfig"; sourceTree = "<group>"; };
 		01FE4B605FCF6F5D282413F2C6FEDFD4 /* AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyPromise.h; path = Sources/AnyPromise.h; sourceTree = "<group>"; };
+		03F5DDCC65C822FE814A744383EE6FC2 /* Pods-StudentLoans-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StudentLoans-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0D38D8F361C611EFCFF57DC13B115F3A /* when.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = when.m; path = Sources/when.m; sourceTree = "<group>"; };
-		11E097F52EDA69176F471E6BBF7C8E4F /* Pods-StudentLoans-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StudentLoans-frameworks.sh"; sourceTree = "<group>"; };
-		192C63E63DAC191152639BB6F4ABD138 /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromiseKit.framework; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17764B72EF8B6559D18008A3715F1B1D /* Pods-StudentLoans-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StudentLoans-umbrella.h"; sourceTree = "<group>"; };
+		1CE9073AEC7F0C6D46041FD7F8DDD4A0 /* Pods-StudentLoansToday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StudentLoansToday.debug.xcconfig"; sourceTree = "<group>"; };
 		1DBBCF038A033FBF591B05C0FA593946 /* GlobalState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GlobalState.m; path = Sources/GlobalState.m; sourceTree = "<group>"; };
 		1E33654BE09E7109A0FEEE76E49BF8E0 /* NSTask+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTask+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.m"; sourceTree = "<group>"; };
 		294026AB8B28C610FC57DF2A26EB7FC9 /* NSNotificationCenter+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSNotificationCenter+Promise.swift"; path = "Extensions/Foundation/Sources/NSNotificationCenter+Promise.swift"; sourceTree = "<group>"; };
+		2967C34E176593E62F734AB9A68032E3 /* Pods-StudentLoans.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StudentLoans.debug.xcconfig"; sourceTree = "<group>"; };
 		2C6823BF3BB1566E1F8C86FABE5F23DA /* wrap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = wrap.swift; path = Sources/wrap.swift; sourceTree = "<group>"; };
+		2E7192460428B3631C6219B46B5C6AFC /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromiseKit.framework; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		337F0663F2253CE5F69CA018CA7C90D8 /* NSURLSession+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+Promise.swift"; path = "Extensions/Foundation/Sources/NSURLSession+Promise.swift"; sourceTree = "<group>"; };
 		37D86DBB6A7B7F77D79F889CEBC3755E /* CALayer+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+AnyPromise.h"; path = "Extensions/QuartzCore/Sources/CALayer+AnyPromise.h"; sourceTree = "<group>"; };
 		3917A50EB224EEDBC66971700D698782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B4A3FC47ADF7DEBBE9575E4517ADDFF /* Pods_StudentLoans.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StudentLoans.framework; path = "Pods-StudentLoans.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D01C9B1812597128430667AC0D3751C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D8C2DDC09A2F5FF7FC82E8881A3996B /* URLDataPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLDataPromise.swift; path = Extensions/Foundation/Sources/URLDataPromise.swift; sourceTree = "<group>"; };
+		3F3C60933EDFD77AC988304F09227783 /* Pods-StudentLoansToday-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StudentLoansToday-acknowledgements.markdown"; sourceTree = "<group>"; };
 		41BE05D1B6D9DB09085F5D597DF8FCF4 /* PromiseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-umbrella.h"; sourceTree = "<group>"; };
 		4212FBE5112A86EA090A636CE6EA59B6 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
+		45A47570766E574B96FFFB3A9415C689 /* Pods-StudentLoansToday.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-StudentLoansToday.modulemap"; sourceTree = "<group>"; };
+		472C722EA5B261028C1573BE99CC9332 /* Pods-StudentLoans-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StudentLoans-dummy.m"; sourceTree = "<group>"; };
 		4E0B0795D4CC1B35FA39436D5052DCFB /* Zalgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zalgo.swift; path = Sources/Zalgo.swift; sourceTree = "<group>"; };
-		5D8752A0C78E391E8D9BC8D3DFF8A74C /* Pods-StudentLoans.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StudentLoans.debug.xcconfig"; sourceTree = "<group>"; };
-		6148D45C5CF931A5D66DACF2FED2BB80 /* Pods-StudentLoans.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-StudentLoans.modulemap"; sourceTree = "<group>"; };
 		6179271256B847F0ECC0222967A3CAA1 /* Promise+Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Properties.swift"; path = "Sources/Promise+Properties.swift"; sourceTree = "<group>"; };
 		633F0B04323882A67E03C84384FC9203 /* PromiseKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.xcconfig; sourceTree = "<group>"; };
 		638FC877C26AE2698B03F57C63A5C636 /* NSNotificationCenter+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"; sourceTree = "<group>"; };
 		647132F3F2E8752B2E96A1DC7747B992 /* hang.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = hang.m; path = Sources/hang.m; sourceTree = "<group>"; };
-		663AA1F015D29D0C2858C545870B84D8 /* Pods-StudentLoans-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StudentLoans-acknowledgements.markdown"; sourceTree = "<group>"; };
 		67E1D36DCB7BF8A7DEB230733B158119 /* PMKQuartzCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKQuartzCore.h; path = Extensions/QuartzCore/Sources/PMKQuartzCore.h; sourceTree = "<group>"; };
 		6B7B97DBEF2B7618554E6D9AB143DFAA /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promise.swift; sourceTree = "<group>"; };
 		6F48B3970DAE9346AD3FA54A3A613328 /* CALayer+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+AnyPromise.m"; path = "Extensions/QuartzCore/Sources/CALayer+AnyPromise.m"; sourceTree = "<group>"; };
 		7307E7A48A7523AE477711BA4DF908C9 /* UIView+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Promise.swift"; path = "Extensions/UIKit/Sources/UIView+Promise.swift"; sourceTree = "<group>"; };
 		765DEE6E8D8C524E9695A1C7726AB582 /* UIView+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.h"; sourceTree = "<group>"; };
-		77E05534D712A45F7DAE8FE99CAF504D /* Pods_StudentLoans.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StudentLoans.framework; path = "Pods-StudentLoans.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A2B3D19404B7C7A8014B95D5977B946 /* UIView+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.m"; sourceTree = "<group>"; };
 		7B1EC75F3F631688BE467D62877D90CD /* UIViewController+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.h"; sourceTree = "<group>"; };
 		7CCDD0F4DEC7B45ED67BDA259AA0495C /* AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AnyPromise.m; path = Sources/AnyPromise.m; sourceTree = "<group>"; };
 		7D29D2F64D48281095C8274FEE6DACD0 /* when.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = when.swift; path = Sources/when.swift; sourceTree = "<group>"; };
 		7E43CFF6D7A6E68F617343E7F43D0A70 /* Process+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Process+Promise.swift"; path = "Extensions/Foundation/Sources/Process+Promise.swift"; sourceTree = "<group>"; };
 		7FAE3B541056E3495362EF0C5DDB405B /* UIViewController+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Promise.swift"; path = "Extensions/UIKit/Sources/UIViewController+Promise.swift"; sourceTree = "<group>"; };
-		8E34512887E7F6F46550697CBEB3A03C /* Pods-StudentLoans-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StudentLoans-dummy.m"; sourceTree = "<group>"; };
+		8A632BF616368B1CACD73130EBC37574 /* Pods-StudentLoansToday-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StudentLoansToday-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94623C3F6F1A4770C51FA85E06463C29 /* Pods-StudentLoans.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StudentLoans.release.xcconfig"; sourceTree = "<group>"; };
 		95632F4C8D15D6CF8EE867952FA69262 /* PMKUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKUIKit.h; path = Extensions/UIKit/Sources/PMKUIKit.h; sourceTree = "<group>"; };
 		95739ECC732A6332E68750FE3F7489A4 /* Promise+AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+AnyPromise.swift"; path = "Sources/Promise+AnyPromise.swift"; sourceTree = "<group>"; };
 		95DEEF09AD31315EC2776080269E92B7 /* race.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = race.swift; path = Sources/race.swift; sourceTree = "<group>"; };
 		9696FB863D0DE618F5B3684606228A4A /* NSURLSession+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSession+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"; sourceTree = "<group>"; };
 		97A9B7857BB154507F020FDFC1EBB31C /* join.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = join.m; path = Sources/join.m; sourceTree = "<group>"; };
+		983F35E99DD1FD0DA9ADC0AB764BCB81 /* Pods-StudentLoansToday-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StudentLoansToday-resources.sh"; sourceTree = "<group>"; };
+		9BF54D5E360DD632951E2EDED4FC9A63 /* Pods_StudentLoansToday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StudentLoansToday.framework; path = "Pods-StudentLoansToday.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D009A35EE64D77102391EC364147766 /* PMKFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKFoundation.h; path = Extensions/Foundation/Sources/PMKFoundation.h; sourceTree = "<group>"; };
+		A4093BCD7596A312F94BF822B88687D6 /* Pods-StudentLoans-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StudentLoans-resources.sh"; sourceTree = "<group>"; };
 		A781E6C7BA06DD8A0A80B0494DA26A4E /* NSTask+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTask+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.h"; sourceTree = "<group>"; };
-		A8AF3A3FD45A59D7EEA471543C0CEABE /* Pods-StudentLoans-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StudentLoans-resources.sh"; sourceTree = "<group>"; };
-		B2E3143539BD2C61D35BE71BB7621248 /* Pods-StudentLoans-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StudentLoans-acknowledgements.plist"; sourceTree = "<group>"; };
+		B04542BE884639651A1D8222E4BB6D9A /* Pods-StudentLoans-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StudentLoans-acknowledgements.plist"; sourceTree = "<group>"; };
 		B660E1F4E80FD3F4BF33455CD40AA754 /* after.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = after.swift; path = Sources/after.swift; sourceTree = "<group>"; };
+		B6F8F743016A3A50454FAD22D76CE439 /* Pods-StudentLoansToday-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StudentLoansToday-umbrella.h"; sourceTree = "<group>"; };
 		BD8EEC210981A388DDF8ECCEF8433904 /* NSObject+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Promise.swift"; path = "Extensions/Foundation/Sources/NSObject+Promise.swift"; sourceTree = "<group>"; };
 		BFFA858C2DB288BB308A48DC5193E6F1 /* PMKAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMKAlertController.swift; path = Extensions/UIKit/Sources/PMKAlertController.swift; sourceTree = "<group>"; };
-		C12735FFDA6FAB82EDD2323F6A2A933E /* Pods-StudentLoans-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StudentLoans-umbrella.h"; sourceTree = "<group>"; };
 		C54315DA3A1A39E54691EB5C6921A90C /* after.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = after.m; path = Sources/after.m; sourceTree = "<group>"; };
 		C75F5106CF2E74A67689DE4BE2044812 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB5F4A276E2678B6049F2F139147EC12 /* NSNotificationCenter+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.m"; sourceTree = "<group>"; };
@@ -134,15 +150,19 @@
 		DDD911A7C16FAA09302EE0DF2F0B0DA9 /* PromiseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromiseKit-dummy.m"; sourceTree = "<group>"; };
 		DE1F16648A7B55D15BED16EC48C06644 /* PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromiseKit.h; path = Sources/PromiseKit.h; sourceTree = "<group>"; };
 		DF52D452D72EF81C1A4A1B4DBDFC452A /* afterlife.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = afterlife.swift; path = Extensions/Foundation/Sources/afterlife.swift; sourceTree = "<group>"; };
+		E15C78CF16C4D89067FE54E0BF52B779 /* Pods-StudentLoans-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StudentLoans-frameworks.sh"; sourceTree = "<group>"; };
+		E1DD3984762CACB95CE69DCFD34440D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3434B6FB21494F0305B451EA8C5E7C9 /* Pods-StudentLoans.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-StudentLoans.modulemap"; sourceTree = "<group>"; };
 		E7480BAB29A5573D40EBF6E02381C1E2 /* UIViewController+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.m"; sourceTree = "<group>"; };
 		E9A5586A6499C102D0BCC9DC96EF7F49 /* join.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = join.swift; path = Sources/join.swift; sourceTree = "<group>"; };
+		EC294C952C65778A93ED773FA4EB9D40 /* Pods-StudentLoansToday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StudentLoansToday.release.xcconfig"; sourceTree = "<group>"; };
+		EE86D8E0406980202B5F1A234A617DEC /* Pods-StudentLoansToday-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StudentLoansToday-acknowledgements.plist"; sourceTree = "<group>"; };
 		EE9A7EF9C115E41D052ADAEF5E87EFD1 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/State.swift; sourceTree = "<group>"; };
 		F3AF2875741DFD0921E7E1FF67859289 /* dispatch_promise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dispatch_promise.m; path = Sources/dispatch_promise.m; sourceTree = "<group>"; };
 		F6300B2B83011D43128DA44649586D4A /* fwd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fwd.h; path = Sources/fwd.h; sourceTree = "<group>"; };
 		F845E54F1F99FA83765AE21DEBBED993 /* DispatchQueue+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Promise.swift"; path = "Sources/DispatchQueue+Promise.swift"; sourceTree = "<group>"; };
 		FB5E85CCDC82593A54E6A9AA5AD8482E /* PromiseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-prefix.pch"; sourceTree = "<group>"; };
 		FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		FC7F865B9793680E455F96C8745DF5BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD987AB706C5E3C09C4B93C7F9F25E23 /* AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyPromise.swift; path = Sources/AnyPromise.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,15 +185,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C7B66C2A56E51944B31DF0341D922CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B4544B978695D227B6F4EF9AB7B69C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		025B4C3081AD2250F48BB949396D9741 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B4A3FC47ADF7DEBBE9575E4517ADDFF /* Pods_StudentLoans.framework */,
+				9BF54D5E360DD632951E2EDED4FC9A63 /* Pods_StudentLoansToday.framework */,
+				2E7192460428B3631C6219B46B5C6AFC /* PromiseKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3276D538C79D2EA702F8FCC38AF99D9A /* Pods-StudentLoansToday */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD3984762CACB95CE69DCFD34440D1 /* Info.plist */,
+				45A47570766E574B96FFFB3A9415C689 /* Pods-StudentLoansToday.modulemap */,
+				3F3C60933EDFD77AC988304F09227783 /* Pods-StudentLoansToday-acknowledgements.markdown */,
+				EE86D8E0406980202B5F1A234A617DEC /* Pods-StudentLoansToday-acknowledgements.plist */,
+				8A632BF616368B1CACD73130EBC37574 /* Pods-StudentLoansToday-dummy.m */,
+				983F35E99DD1FD0DA9ADC0AB764BCB81 /* Pods-StudentLoansToday-resources.sh */,
+				B6F8F743016A3A50454FAD22D76CE439 /* Pods-StudentLoansToday-umbrella.h */,
+				1CE9073AEC7F0C6D46041FD7F8DDD4A0 /* Pods-StudentLoansToday.debug.xcconfig */,
+				EC294C952C65778A93ED773FA4EB9D40 /* Pods-StudentLoansToday.release.xcconfig */,
+			);
+			name = "Pods-StudentLoansToday";
+			path = "Target Support Files/Pods-StudentLoansToday";
 			sourceTree = "<group>";
 		};
 		38908CA03A120B329909CCDB1910CD05 /* PromiseKit */ = {
@@ -189,21 +244,13 @@
 			path = PromiseKit;
 			sourceTree = "<group>";
 		};
-		422561F9292A1D94155201D9073F7941 /* Targets Support Files */ = {
+		470C79D3117BBA50AC3F435E04486E01 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				71F629D586E115948F40AB819B22AD07 /* Pods-StudentLoans */,
+				E7975FBE9A94D0CFED21CCCD22D1E1C1 /* Pods-StudentLoans */,
+				3276D538C79D2EA702F8FCC38AF99D9A /* Pods-StudentLoansToday */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		64E93EAA045F00A93AA4755B4FF9238A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				77E05534D712A45F7DAE8FE99CAF504D /* Pods_StudentLoans.framework */,
-				192C63E63DAC191152639BB6F4ABD138 /* PromiseKit.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		6D148CD65D2A2774D613EDC0E3F45F27 /* Foundation */ = {
@@ -226,32 +273,14 @@
 			name = Foundation;
 			sourceTree = "<group>";
 		};
-		71F629D586E115948F40AB819B22AD07 /* Pods-StudentLoans */ = {
-			isa = PBXGroup;
-			children = (
-				FC7F865B9793680E455F96C8745DF5BD /* Info.plist */,
-				6148D45C5CF931A5D66DACF2FED2BB80 /* Pods-StudentLoans.modulemap */,
-				663AA1F015D29D0C2858C545870B84D8 /* Pods-StudentLoans-acknowledgements.markdown */,
-				B2E3143539BD2C61D35BE71BB7621248 /* Pods-StudentLoans-acknowledgements.plist */,
-				8E34512887E7F6F46550697CBEB3A03C /* Pods-StudentLoans-dummy.m */,
-				11E097F52EDA69176F471E6BBF7C8E4F /* Pods-StudentLoans-frameworks.sh */,
-				A8AF3A3FD45A59D7EEA471543C0CEABE /* Pods-StudentLoans-resources.sh */,
-				C12735FFDA6FAB82EDD2323F6A2A933E /* Pods-StudentLoans-umbrella.h */,
-				5D8752A0C78E391E8D9BC8D3DFF8A74C /* Pods-StudentLoans.debug.xcconfig */,
-				94623C3F6F1A4770C51FA85E06463C29 /* Pods-StudentLoans.release.xcconfig */,
-			);
-			name = "Pods-StudentLoans";
-			path = "Target Support Files/Pods-StudentLoans";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				9BC2F6B1CCEF88766C020D4B57771407 /* Pods */,
-				64E93EAA045F00A93AA4755B4FF9238A /* Products */,
-				422561F9292A1D94155201D9073F7941 /* Targets Support Files */,
+				025B4C3081AD2250F48BB949396D9741 /* Products */,
+				470C79D3117BBA50AC3F435E04486E01 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -327,6 +356,24 @@
 			name = QuartzCore;
 			sourceTree = "<group>";
 		};
+		E7975FBE9A94D0CFED21CCCD22D1E1C1 /* Pods-StudentLoans */ = {
+			isa = PBXGroup;
+			children = (
+				3D01C9B1812597128430667AC0D3751C /* Info.plist */,
+				E3434B6FB21494F0305B451EA8C5E7C9 /* Pods-StudentLoans.modulemap */,
+				03F5DDCC65C822FE814A744383EE6FC2 /* Pods-StudentLoans-acknowledgements.markdown */,
+				B04542BE884639651A1D8222E4BB6D9A /* Pods-StudentLoans-acknowledgements.plist */,
+				472C722EA5B261028C1573BE99CC9332 /* Pods-StudentLoans-dummy.m */,
+				E15C78CF16C4D89067FE54E0BF52B779 /* Pods-StudentLoans-frameworks.sh */,
+				A4093BCD7596A312F94BF822B88687D6 /* Pods-StudentLoans-resources.sh */,
+				17764B72EF8B6559D18008A3715F1B1D /* Pods-StudentLoans-umbrella.h */,
+				2967C34E176593E62F734AB9A68032E3 /* Pods-StudentLoans.debug.xcconfig */,
+				008846D95D6E3932A85E6EA07267B0E7 /* Pods-StudentLoans.release.xcconfig */,
+			);
+			name = "Pods-StudentLoans";
+			path = "Target Support Files/Pods-StudentLoans";
+			sourceTree = "<group>";
+		};
 		F9C1C38E536FD710388B234B7D8FA163 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,6 +392,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		08207CC20B6A3C671F625894B5AD93CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5057AE97BFCEA95993CDCF70CEF0C910 /* Pods-StudentLoansToday-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		72A647B680AC775BBC76FC2318A3C81E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -391,7 +446,7 @@
 			);
 			name = "Pods-StudentLoans";
 			productName = "Pods-StudentLoans";
-			productReference = 77E05534D712A45F7DAE8FE99CAF504D /* Pods_StudentLoans.framework */;
+			productReference = 3B4A3FC47ADF7DEBBE9575E4517ADDFF /* Pods_StudentLoans.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E5ADC79467416ED46D7A1EFF414222E9 /* PromiseKit */ = {
@@ -408,7 +463,25 @@
 			);
 			name = PromiseKit;
 			productName = PromiseKit;
-			productReference = 192C63E63DAC191152639BB6F4ABD138 /* PromiseKit.framework */;
+			productReference = 2E7192460428B3631C6219B46B5C6AFC /* PromiseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD9459C99E0A3B2CF696A06B0F6ACC32 /* Pods-StudentLoansToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F39D267B7C23B02A45C676B7AE43B6 /* Build configuration list for PBXNativeTarget "Pods-StudentLoansToday" */;
+			buildPhases = (
+				AFC031C8F7388480AE00C8EE95410468 /* Sources */,
+				C7B66C2A56E51944B31DF0341D922CDE /* Frameworks */,
+				08207CC20B6A3C671F625894B5AD93CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AB64C65D61D9C6EA9EF7DEFDA7AAFA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-StudentLoansToday";
+			productName = "Pods-StudentLoansToday";
+			productReference = 9BF54D5E360DD632951E2EDED4FC9A63 /* Pods_StudentLoansToday.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -428,11 +501,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 64E93EAA045F00A93AA4755B4FF9238A /* Products */;
+			productRefGroup = 025B4C3081AD2250F48BB949396D9741 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				428F1AC7DBFB78046C5FDA9BE7D47C38 /* Pods-StudentLoans */,
+				FD9459C99E0A3B2CF696A06B0F6ACC32 /* Pods-StudentLoansToday */,
 				E5ADC79467416ED46D7A1EFF414222E9 /* PromiseKit */,
 			);
 		};
@@ -490,9 +564,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AFC031C8F7388480AE00C8EE95410468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC13DBE98C90A5F26B3D5A4ED5A6B6F0 /* Pods-StudentLoansToday-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3AB64C65D61D9C6EA9EF7DEFDA7AAFA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromiseKit;
+			target = E5ADC79467416ED46D7A1EFF414222E9 /* PromiseKit */;
+			targetProxy = 191764FF7B1BBE9796B648E21073E721 /* PBXContainerItemProxy */;
+		};
 		88D6A1F4267FCA24380D8E93154105BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PromiseKit;
@@ -504,7 +592,7 @@
 /* Begin XCBuildConfiguration section */
 		05FD6A347549FEC639F29E9D0E05C25A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94623C3F6F1A4770C51FA85E06463C29 /* Pods-StudentLoans.release.xcconfig */;
+			baseConfigurationReference = 008846D95D6E3932A85E6EA07267B0E7 /* Pods-StudentLoans.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -540,10 +628,11 @@
 			};
 			name = Release;
 		};
-		4FF4C5F72D954981F06CF2D72F3B0091 /* Release */ = {
+		35A2529793D09761B3FB892766933971 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 633F0B04323882A67E03C84384FC9203 /* PromiseKit.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -574,6 +663,82 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		648A4690490BD32FCC856CB26E965AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633F0B04323882A67E03C84384FC9203 /* PromiseKit.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PromiseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93C25E37D85F4F0E9C98B34AD7E1330D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE9073AEC7F0C6D46041FD7F8DDD4A0 /* Pods-StudentLoansToday.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StudentLoansToday/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StudentLoansToday/Pods-StudentLoansToday.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StudentLoansToday;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -626,7 +791,7 @@
 		};
 		AD9A1F47C49714BAE65882E5BF80507B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D8752A0C78E391E8D9BC8D3DFF8A74C /* Pods-StudentLoans.debug.xcconfig */;
+			baseConfigurationReference = 2967C34E176593E62F734AB9A68032E3 /* Pods-StudentLoans.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -707,40 +872,44 @@
 			};
 			name = Release;
 		};
-		F010E1C8E2B1C3FCEEE46D4E87FE974B /* Debug */ = {
+		C8107E521C3EB889FBE9967DD0206C51 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 633F0B04323882A67E03C84384FC9203 /* PromiseKit.xcconfig */;
+			baseConfigurationReference = EC294C952C65778A93ED773FA4EB9D40 /* Pods-StudentLoansToday.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PromiseKit/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-StudentLoansToday/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PromiseKit;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StudentLoansToday/Pods-StudentLoansToday.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StudentLoansToday;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -748,8 +917,8 @@
 		21ED22CD4DFCAD915FEC0B906F622DD7 /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F010E1C8E2B1C3FCEEE46D4E87FE974B /* Debug */,
-				4FF4C5F72D954981F06CF2D72F3B0091 /* Release */,
+				648A4690490BD32FCC856CB26E965AA4 /* Debug */,
+				35A2529793D09761B3FB892766933971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -759,6 +928,15 @@
 			buildConfigurations = (
 				9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */,
 				C03B8870130C98D1B02B59D003687524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30F39D267B7C23B02A45C676B7AE43B6 /* Build configuration list for PBXNativeTarget "Pods-StudentLoansToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C25E37D85F4F0E9C98B34AD7E1330D /* Debug */,
+				C8107E521C3EB889FBE9967DD0206C51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

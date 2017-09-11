@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="StudentLoansToday" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$24,000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="le2-6n-bvL">
+                                <rect key="frame" x="16" y="58.5" width="107" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vc3-Of-Jtg">
+                                <rect key="frame" x="294" y="23" width="65" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="Ddr-BS-v70"/>
+                                    <constraint firstAttribute="height" constant="65" id="E0c-dh-gLm"/>
+                                </constraints>
+                                <state key="normal" title="Refresh">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="refreshTapped:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="HRY-1X-5Uc"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="PH7-L2-jeg">
+                                <rect key="frame" x="16" y="60" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="H3c-Xn-KB7"/>
+                                    <constraint firstAttribute="width" constant="30" id="foD-3Y-IMq"/>
+                                </constraints>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vys-9t-dpe">
+                                <rect key="frame" x="16" y="20" width="49" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="le2-6n-bvL" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" id="0j2-bS-PeO"/>
+                            <constraint firstItem="PH7-L2-jeg" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" id="6Tf-jk-ceb"/>
+                            <constraint firstItem="Vys-9t-dpe" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="20" id="8j4-eM-hje"/>
+                            <constraint firstItem="Vys-9t-dpe" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" id="XeU-2n-h7m"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="le2-6n-bvL" secondAttribute="bottom" constant="20" id="adL-cd-9gh"/>
+                            <constraint firstItem="vc3-Of-Jtg" firstAttribute="centerY" secondItem="S3S-Oj-5AN" secondAttribute="centerY" id="d8i-IF-nGA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vc3-Of-Jtg" secondAttribute="trailing" id="pUN-OO-abY"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="PH7-L2-jeg" secondAttribute="bottom" constant="20" id="yyg-eg-H4i"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="110"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="PH7-L2-jeg" id="cfc-Ue-kcN"/>
+                        <outlet property="refreshButton" destination="vc3-Of-Jtg" id="t0c-4L-stV"/>
+                        <outlet property="totalLabel" destination="le2-6n-bvL" id="CjR-vU-CxP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.40000000000001" y="136.73163418290855"/>
+        </scene>
+    </scenes>
+</document>

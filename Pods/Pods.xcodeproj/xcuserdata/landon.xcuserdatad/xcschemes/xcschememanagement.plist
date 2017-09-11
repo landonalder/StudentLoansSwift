@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-StudentLoansToday.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>PromiseKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>E5ADC79467416ED46D7A1EFF414222E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD9459C99E0A3B2CF696A06B0F6ACC32</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -9,10 +9,25 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>StudentLoansToday.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>4476213D1F5E1B8A002058C9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>447AC29B1F663F8100F3A824</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>447AC2B71F66411100F3A824</key>
 		<dict>
 			<key>primary</key>
 			<true/>
